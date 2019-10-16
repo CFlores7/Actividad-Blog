@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Blog</title>
+</head>
+<body id="wallpaper">
+    <header class="header">
+        <h1>Blog de Juego</h1>
+        <p>Actividades durante el juego</p>
+    </header>
+    <main class="main">
+        <section class="lateral">
+            <p class="titulo">Descripción</p>
+            <p>Esta semana estuvo algo fuera de lo normal, pues los catedráticos decidieron cambiar un poco
+                las cosas dentro de la clase y se hizo un juego en la materia de Administracion de Bases de
+                Datos, cada día se tenia que completar ciertos acertijos para asi tener el paso al siguiente
+                capitulo.
+            </p>
+            <br><br>
+            <div class="titulo">Seleccione el capitulo:</div>
+            <br>
+            <form>
+                <select id="capitulo">
+                    <option value="" selected> --Selecciona un Capitulo--</option>
+                    <option>Cap 1 - Begin</option>
+                    <option>Cap 2 - O-O-O</option>
+                    <option>Cap 3 - minus monocromo</option>
+                    <option>Cap 4 - cumulonimbus</option>
+                    <option>Cap 5 - Commit</option>
+                </select>
+            </form>
+            <br>
+            <button onclick="capitulo()">Avanzar</button>
+        </section>
+        <section class="central">
+            <h2 id="cap"></h2>
+            <p id="info"></p>
+            <img src="" alt="" width="auto" height="400px" id="img1">
+            <img src="" alt="" width="auto" height="400px" id="img2">
+        </section>
+        <section class="lateral">
+            <p>Blog Patrocinado Por:</p>
+            <div class="logo"></div>
+            <br><br>
+            <p class="titulo">Perfil</p>
+            <p>Carlos Flores</p>
+            <p>00163518</p>
+            <div class="p-p"></div>
+            <br><br>
+            <p class="titulo">Tags más populares</p>
+            <p>informática, bases de datos, juego, programación, computadora, QR</p>
+        </section>
+    </main>
+</body>
+</html>
